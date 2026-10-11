@@ -1,12 +1,12 @@
 # Referent expectations
 
-Companion code for *Calibrated Referent Expectations and Subject Form in Three Languages*, manuscript version 11 October 2026 (eight-page main text). Run the commands from this directory.
+The code for *Calibrated Referent Expectations and Subject Form in Three Languages*.
 
 Build annotated subject opportunities, measure LLM referent expectations, and compare subject-form models with local-history and calibrated contextual features.
 
 ## Environment
 
-Run the commands below in Bash. Use Python 3.11 and a CUDA GPU with enough memory for FP32 inference; the 8B runs used GPUs reporting 49,140 MiB. Keep the batch settings below when comparing the reported results.
+Run the commands below in Bash. Use Python 3.11 and a CUDA GPU with enough memory for FP32 inference; Keep the batch settings below when comparing the reported results.
 
 ```bash
 python -m venv .venv
